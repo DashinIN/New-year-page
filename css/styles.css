@@ -52,7 +52,7 @@ body._lock {
     justify-content: space-between;
     flex-direction: column;
     font-weight: 900;
-    position: relative;
+    
 }
 .header__title {
     color: grey;
@@ -174,12 +174,21 @@ body._lock {
 }
 
 @media (min-width: 767px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__burger {
+        display: none;
+    }
     .header__title {
         padding: 2em 0 1em 3em; 
         text-align: start;
     }
 
     .header__nav {
+        position: static;
         flex-direction: row;
         font-size: 1em;
         padding: 0 0 0 15%;
