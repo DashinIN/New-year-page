@@ -250,10 +250,12 @@ body._lock {
     overflow: hidden;
     background-image:url('https://dashinin.github.io/New-year-page/img/snowflake.png'), url('https://dashinin.github.io/New-year-page/img/snowflake3.png'), 
     url('https://dashinin.github.io/New-year-page/img/snowflake2.png'), linear-gradient(15deg, cornflowerblue, 70%, rgb(4, 18, 44));
-    animation: snow  20s linear infinite;
+    
     
 }
-
+._pc {
+    animation: snow  20s linear infinite;
+}
 @keyframes snow {
     0% {background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px;}
     100% {background-position: 500px 1000px, 400px 400px, 300px 300px, 0px 0px;}
@@ -408,7 +410,7 @@ body._lock {
 .articles {
     background-image:url('https://dashinin.github.io/New-year-page/img/snowflake.png'), url('https://dashinin.github.io/New-year-page/img/snowflake3.png'), 
     url('https://dashinin.github.io/New-year-page/img/snowflake2.png'), linear-gradient(195deg, cornflowerblue, 70%, rgb(4, 18, 44));
-    animation: snow  20s linear infinite;
+
 grid-area: articles;
 font-size: 1.5em;
 
