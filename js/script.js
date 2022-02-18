@@ -1,7 +1,7 @@
 
 
 
-
+//Открывает - закрывает меню
 
 const burgerMenu = document.querySelector(".header__burger");
 const headerNav = document.querySelector(".header__nav");
@@ -12,6 +12,8 @@ if(burgerMenu) {
         headerNav.classList.toggle("_active");
     })
 }
+
+// Переход по ссылкам
 
 const menuLinks = document.querySelectorAll(".header__nav-link[data-goto]");
 if (menuLinks.length > 0) {

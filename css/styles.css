@@ -184,11 +184,15 @@ body._lock {
     }
     .header__title {
         padding: 2em 0 1em 3em; 
+        font-size: 2em;
         text-align: start;
     }
 
     .header__nav {
-        position: static;
+       transform: translate(0, 0);
+        z-index: 0;
+       position: static;
+        background-color: whitesmoke;
         flex-direction: row;
         font-size: 1em;
         padding: 0 0 0 15%;
