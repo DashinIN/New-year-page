@@ -32,13 +32,15 @@ const isMobile = {
 const Main = document.querySelector(".main");
 const Articles = document.querySelector(".articles");
 
+document.addEventListener('DOMContentLoaded', function() {
 
-if(isMobile.any()) {
+    if(!isMobile.any()) {
   
     Main.classList.add("_pc");
     Articles.classList.add("_pc");
 
-}
+    }
+});
 
 
 
